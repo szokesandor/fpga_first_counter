@@ -21,15 +21,15 @@ After installation of the IDE,
  - Click **Finish**, to run the simulation.
  - Now the `modelsim` will be launched. For me the Finish Vsim dialog appear finally, So I simply press **no**
  
- The main process ends here, now you should have a sucessful simulation ended with results on screen. You might need some additional setup to get them infront of you.
+ The main process ends here, now you should have a sucessful simulation ended with results on screen. You might need some additional setup to get results correctly infront of you.
  
  - on the right side there should be a screen with two tabs:
-   1. wave
-   2. `testbench_count.v`
- - Choose wave
- - In the menubar choose Simulate --> Runtime options
- - On the left side of the dialog you see default radix, choose Hexadecimal
- - Now you can zoom in the Wave display scroll with mouse holding CTRL down, into the beginning of the signals.
+   1. Wave and
+   2. _testbench_count.v_
+ - Choose Wave
+ - In the menubar choose `Simulate --> Runtime options`
+ - On the left side of the dialog you see default radix, choose _Hexadecimal_ and press **Ok**
+ - Now you can zoom in the `Wave display` scroll with mouse holding CTRL down, into the beginning of the signals.
  - You will see the signals, also the counter value in hexadecimal
 
 Thats all, folks. 
